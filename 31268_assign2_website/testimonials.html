@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Products</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #222;
+        background-image: url('assets/bg.jpeg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .menu-links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+      }
+
+      .menu-links li {
+        font-size: 16px;
+      }
+
+      .menu-links a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .hamburger-btn {
+        cursor: pointer;
+        font-size: 24px;
+      }
+
+      .testimonials-section {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .testimonials-section h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+
+      .testimonial {
+        margin-bottom: 40px;
+      }
+
+      .testimonial img {
+        width: 100px;
+        border-radius: 50%;
+      }
+
+      .testimonial p {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .testimonial p:last-child {
+        margin-top: 5px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar">
+          <a class="logo" href="index.html">Coffee<span>.</span></a>
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+      </header>
+
+    <section class="testimonials-section">
+      <h2>What Our Customers Say</h2>
+
+      <div class="testimonial">
+        <img src="assets/cust1.jpeg" alt="Customer 1">
+        <p>"Amazing coffee! The flavors are rich and the aroma is intoxicating. I start every day with a cup of Coffee<span>.</span>"</p>
+        <p>- John Doe</p>
+      </div>
+
+      <div class="testimonial">
+        <img src="assets/cust2.jpeg" alt="Customer 2">
+        <p>"As a coffee lover, I've tried many brands, but Coffee<span>.</span> stands out. The quality is unmatched, and the variety is impressive."</p>
+        <p>- Jane Smith</p>
+      </div>
+      hover
+        <img src="assets/cust3.jpeg" alt="Customer 3">
+        <p>"Exceptional service and top-notch coffee. The attention to detail in the roasting process is evident in every cup. Highly recommended!"</p>
+        <p>- Alex Johnson</p>
+      </div>
+
+    </section>
+
+  </body>
+</html>
