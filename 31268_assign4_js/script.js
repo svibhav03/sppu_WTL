@@ -21,7 +21,7 @@ function validateAndGreet() {
     } else {
         // Display greeting
         var greeting = "Entry submitted! Please check your email for further details!";
-        alert(greeting);
+        prompt(greeting);
     }
 }
 
